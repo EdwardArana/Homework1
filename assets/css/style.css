@@ -26,6 +26,9 @@ span {
     color: #d9dcd6;
 }
 
+
+
+/* Changed to Navigation Section */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,7 +45,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* End Navigation Section */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -52,7 +55,7 @@ p {
     font-size: 16px;
 }
 
-/* Changed Div to figure */
+/* Hero Img */
 figure {
     height: 800px;
     width: 100%;
@@ -89,6 +92,8 @@ section {
     background-color: #2589bd;
 }
 
+/* Removed Class's and used proper semantics */
+/* Also combined HTML tags on Css to shorten code */
 aside article {
     margin-bottom: 32px;
     color: #ffffff;
